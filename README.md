@@ -1,8 +1,14 @@
+# Personal Fitness Monitor 
+This project was developed based on the Tiva C series TM4C123G LaunchPad Evaluation Kit EK-TM4C123GXL.
+The goal of the project is to program a personal fitness monitor to record a user's steps and estimate the distance traveled by the user.
+The fitness monitor will be powered by a TIVA microcontroller connected to an Orbit BoosterPack peripheral board. The main project output will be a program for a TICA board that contains a small. interrupt-driven kernel able to record and display activity data via a  graphical user interface. 
+
 Base 'ADCdemo1' 'readAcc' develop Personal Fitness Monitor.  
 The user's steps will be increments by ADXL345 digital accelerometer sensor data.
 
-# Author:  
+## Author:  
       Heng Yin
+      https://eng-git.canterbury.ac.nz/ence361-2022/group3
 
 <!-- include lib: 'buttons4.c', 'buttons4.h', 'circBufT.c', 'circBufT.h'... -->
 
